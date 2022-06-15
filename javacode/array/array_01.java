@@ -59,6 +59,7 @@ public class array_01 {
         }
 
 
+
     /*
     https://www.runoob.com/java/java-array.html
      */
@@ -70,3 +71,5 @@ public class array_01 {
         //IndexOutOfBoundsException -- 如果index参数为负或不小于该字符串的长度.
     }
 }
+
+
