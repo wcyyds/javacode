@@ -4,3 +4,4 @@ public class Fruit1 {
         Fruit s2 = new Fruit(2, "cadc");
         System.out.println(s1.equals(s2));
     }
+}

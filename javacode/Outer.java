@@ -19,6 +19,4 @@ public class Outer {
         i.show2();
         i.show1();
     }
-
-
 }

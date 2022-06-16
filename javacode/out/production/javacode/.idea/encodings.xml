@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Outer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Regular_expression.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/liaxi.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/knowledge/001-环境搭建/HelloWorld.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/knowledge/005-运算符/Homework01.java" charset="GBK" />
   </component>
 </project>
