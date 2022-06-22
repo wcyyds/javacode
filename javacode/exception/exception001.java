@@ -3,6 +3,12 @@ package exception;
 import java.io.FileInputStream;
 
 public class exception001 {
+    private int a;
+
+    public exception001(int a) {
+        this.a = a;
+    }
+
     public static void main(String[] args) {
         System.out.println("main begin");
         try{
