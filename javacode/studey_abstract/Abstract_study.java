@@ -1,4 +1,4 @@
-package study_final;
+package studey_abstract;
 /*
 抽象类
 1.什么是抽象类，类和类之间有的共同特征，讲这些特征提取出来，形成的就是抽象类
