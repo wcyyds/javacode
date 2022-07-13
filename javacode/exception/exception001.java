@@ -15,7 +15,7 @@ public class exception001 {
             m1();
             System.out.println("try,xiamian");
         }catch(Exception t){
-            System.out.println("异常捕捉");
+            System.out.println("寮傚父鎹曟崏");
         }
     }
 
@@ -33,6 +33,6 @@ public class exception001 {
 
     private static void m3() throws Exception {
         new FileInputStream("D:\\");
-        System.out.println("很明显这个不表达");
+        System.out.println("寰堟槑鏄捐繖涓笉琛ㄨ揪");
     }
 }

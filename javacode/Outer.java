@@ -1,9 +1,9 @@
 
 public class Outer {
-    private String name = "Ğ¡Ã÷";
+    private String name = "å°æ˜";
 
     public class Inner {
-        private String name = "Ğ¡ºì";
+        private String name = "å°çº¢";
 
         public void show1() {
             System.out.println(name);

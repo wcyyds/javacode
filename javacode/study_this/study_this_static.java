@@ -1,3 +1,5 @@
+package study_this;
+
 /*
  辨别this 和 static 的很好的东西。
  */

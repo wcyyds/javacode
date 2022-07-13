@@ -1,4 +1,4 @@
-package practise;
+package study_this;
 
 /*
 this是一个关键字，翻译为：这个

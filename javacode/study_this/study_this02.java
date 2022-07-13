@@ -1,4 +1,4 @@
-package practise;
+package study_this;
 
 public class study_this02 {
     //姓名
