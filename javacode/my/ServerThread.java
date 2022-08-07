@@ -1,9 +1,14 @@
-package henhaodeyinggai;
+package my;
+
+import henhaodeyinggai.Server;
 
 import java.io.*;
 import java.net.Socket;
 
-public class ServerThread implements Runnable {
+
+public class ServerThread implements Runnable{
+
+
     private Socket socket = null;
     BufferedReader br = null;
     BufferedWriter bw = null;
@@ -17,7 +22,7 @@ public class ServerThread implements Runnable {
             while (true){
                 String str = br.readLine();
                 if(str!=null){
-                    System.out.println("[" + socket.getRemoteSocketAddress() + "]:" + str);
+                    System.out.println( socket.getRemoteSocketAddress()  + str);
                     //循环遍历给每一个socket发送收到的消息，除了自身
                     for (Socket s : Server.socketList) {
                         if(!socket.equals(s)){
@@ -35,5 +40,4 @@ public class ServerThread implements Runnable {
         }
 
     }
-
 }
