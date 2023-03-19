@@ -2,7 +2,7 @@ package henhaodeyinggai;
 
 import java.io.*;
 import java.net.Socket;
-
+//服务器线程
 public class ServerThread implements Runnable {
     private Socket socket = null;
     BufferedReader br = null;

@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
-
+//服务器
 public class Server {
     public static List<Socket> socketList =new ArrayList<>();
     private void  start(){

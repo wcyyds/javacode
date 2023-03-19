@@ -22,7 +22,6 @@ public class SendThread implements Runnable {
         try {
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
             while (true){
-                System.out.println("["+me+"想说]：");
                 Scanner scanner = new Scanner(System.in);
                 bw.write(scanner.nextLine());
                 bw.write("\n");
