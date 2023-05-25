@@ -39,9 +39,11 @@ fun lambdaLearn(){
 }
 
 //使用了Study接口来进行表示
-fun doStudy(study: Study){
-    study.readBooks()
-    study.doHomework()
+fun doStudy(study: Study?){
+    if(study != null){
+        study.readBooks()
+        study.doHomework()
+    }
 }
 
 //创建和遍历map集合中的数据
