@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import javax.swing.tree.TreeNode;
+import java.util.*;
 
 public class practice {
 
@@ -6,16 +7,16 @@ public class practice {
         int left = 0;
         int right = 0;
         int mid = 0;
-        for(int i = 0; i < c; i++){
+        for (int i = 0; i < c; i++) {
             left = i;
             right = c;
-            while(left <= right){
+            while (left <= right) {
                 mid = (right - left) / 2 + left;
-                if(i * i + mid * mid == c){
+                if (i * i + mid * mid == c) {
                     return true;
-                }else if(i * i + mid * mid < c){
+                } else if (i * i + mid * mid < c) {
                     right = mid - 1;
-                }else if(i * i + mid * mid > c){
+                } else if (i * i + mid * mid > c) {
                     left = mid + 1;
                 }
             }
@@ -24,15 +25,12 @@ public class practice {
     }
 
     public static void main(String[] args) {
-        char[] t = {'e','e','g','g'};
-        int[][] t1 = {{1},{3},{5}};
-        int f[] = {0,0};
-        int arr1[] = {5,7,7,8,8,10};
-        int arr2[] = {10, 9, 1, 8};
-        boolean a = judgeSquareSum(0);
-        System.out.println(a);
+        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        q.offer(null);
+        q.poll();
+        System.out.println(q.size());
+        System.out.println(q.isEmpty());
     }
-
 }
 
 
